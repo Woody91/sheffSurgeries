@@ -2,5 +2,5 @@ package com.awoodliffe
 
 class DoctorController {
 
-    def index() { }
+    def scaffold = Doctor
 }
