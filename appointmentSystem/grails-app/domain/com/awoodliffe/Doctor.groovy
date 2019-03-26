@@ -6,7 +6,7 @@ String qualification
 String position
 String doctorEmail
 String password
-Strong doctorOffice
+String doctorOffice
 int doctorPhone
 String bio
 
