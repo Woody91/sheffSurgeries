@@ -10,6 +10,9 @@ String doctorOffice
 int doctorPhone
 String bio
 
+String toString(){
+return fullName
+}
 
 static hasMany = [patients:Patient, nurses:Nurse, appointments:Appointment, prescriptions:Prescription]
 

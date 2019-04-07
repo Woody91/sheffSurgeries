@@ -9,6 +9,10 @@ String patientID
 Date dateRegistered
 String patientPhone
 
+String toString(){
+return patientName
+}
+
 
 static hasMany = [prescriptions:Prescription, doctors:Doctor, appointments:Appointment]
 
@@ -22,7 +26,6 @@ patientDob nullable: false, blank: false
 patientID nullable: false, blank: false
 dateRegistered nullable: false, blank: false
 patientPhone nullable: false, blank: false
-
 
     }
 }

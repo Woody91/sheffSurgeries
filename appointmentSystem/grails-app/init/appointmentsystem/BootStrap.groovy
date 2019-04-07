@@ -97,7 +97,7 @@ patientResidence:'Earth',
 patientDob: new Date('01/01/0001'),
 patientID:'0001',
 dateRegistered: new Date('02/01/0001'),
-patientPhone:'0773155473'
+patientPhone:'0773155473',
 
 ).save()
 
@@ -109,7 +109,7 @@ patientResidence:'Hell',
 patientDob: new Date('01/01/0001'),
 patientID:'0002',
 dateRegistered: new Date('03/01/0001'),
-patientPhone:'07712345678'
+patientPhone:'07712345678',
 
 ).save()
 
