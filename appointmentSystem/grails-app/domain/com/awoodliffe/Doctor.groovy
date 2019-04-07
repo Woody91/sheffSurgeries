@@ -10,6 +10,11 @@ String doctorOffice
 int doctorPhone
 String bio
 
+
+static hasMany = [patients:Patient, nurses:Nurse, appointments:Appointment, prescriptions:Prescription]
+
+static belongsTo = [Appointment]
+
     static constraints = {
 fullName nullable: false, blank: false
 qualification nullable: false, blank: false
@@ -19,5 +24,6 @@ password nullable: false, blank: false
 doctorOffice nullable: false, blank: false
 doctorPhone nullable: false, blank: false
 bio nullable: false, blank: false, maxsize: 5000, widget: 'textarea'
+
     }
 }

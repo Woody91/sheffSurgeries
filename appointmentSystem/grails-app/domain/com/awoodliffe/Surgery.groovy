@@ -4,10 +4,12 @@ class Surgery {
 String name
 String address
 String postcode
-int telephone
+String telephone
 int numberOfPatients
 String description
 String openingTime
+
+static hasMany = [nurses:Nurse, patients:Patient, doctors:Doctor, receptionists:Receptionist, appointments:Appointment]
 
     static constraints = {
 name nullable: false, blank: false
